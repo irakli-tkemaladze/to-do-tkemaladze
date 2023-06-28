@@ -8,8 +8,8 @@ let testingArea = document.getElementById("testingArea");
 let doneArea = document.getElementById("doneArea");
 
 function createElement(optionValue) {
-    const forText = document.createElement("aside");
-    const startTextSection = document.createElement("section");
+    const forText = document.createElement("article");
+    const startTextSection = document.createElement("aside");
     const taskTitle = document.createElement("h1");
     const taskDescription = document.createElement("h3");
     const endText = document.createElement("p");

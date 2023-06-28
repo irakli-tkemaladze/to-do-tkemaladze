@@ -60,7 +60,7 @@ button{
 
 
 
-#toDoArea aside {
+#toDoArea article {
     width: 90%;
     min-height: 150px;
     background-color: rgba(17, 139, 245, 0.6);
@@ -70,7 +70,7 @@ button{
     padding-left: 30px;
     
 }
-#progressArea aside {
+#progressArea article {
     width: 90%;
     min-height: 150px;
     background-color: rgba(164, 197, 226, 0.6);
@@ -80,7 +80,7 @@ button{
     padding-left: 30px;
     
 }
-#testingArea aside {
+#testingArea article {
     width: 90%;
     min-height: 150px;
     background-color: rgba(85, 102, 117, 0.6);
@@ -90,7 +90,7 @@ button{
     padding-left: 30px;
     
 }
-#doneArea aside {
+#doneArea article {
     width: 90%;
     min-height: 150px;
     background-color: rgba(8, 59, 104, 0.6);
@@ -101,23 +101,23 @@ button{
     
 }
 
-.customer-area aside section{
+.customer-area article{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
    
 }
 
-.customer-area aside h1 {
+.customer-area article h1 {
     font-size: 25px;
     margin:0;
 }
-.customer-area aside h3{
+.customer-area article h3{
     margin: 0;
     font-size: 15px;
 }
 
-.customer-area aside p {
+.customer-area article p {
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
