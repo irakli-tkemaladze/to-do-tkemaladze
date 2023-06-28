@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+
+    <section class="main-section">
+        <section class="input-selector">
+            <div class="input-area">
+                <label for="title">task name</label>
+                <input type="text" name="title" id="title" placeholder="enter here">
+                <label for="description">task description</label>
+                <input type="text" name="description" id="description" placeholder="enter here">
+                <label for="assignee">task assignee</label>
+                <input type="text" name="assignee" id="assignee" placeholder="enter here">
+            </div>
+            <div class="selector">
+                <div>
+                    <h5 style="margin:0 0 16px;">task status </h5>
+                    <select name="task-state" id="state">
+                        <option value="To-do" selected>To Do</option>
+                        <option value="progress">In Progress</option>
+                        <option value="testing">Testing</option>
+                        <option value="done">done</option>
+                    </select>
+                </div>
+                <button onclick="doit()">click me for add</button>
+            </div>
+        </section>
+        <aside class="bottom-area">
+            <div>to do</div>
+            <div>in progress</div>
+            <div>testing</div>
+            <div>done</div>
+        </aside>
+        <aside class="customer-area">
+            <div id="toDoArea"></div>
+            <div id="progressArea"></div>
+            <div id="testingArea"></div>
+            <div id="doneArea"></div>
+        </aside>
+    </section>
+
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
