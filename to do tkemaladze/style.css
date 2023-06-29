@@ -52,7 +52,7 @@ button{
     background-color: rgb(221, 191, 136);
     display: flex;
     justify-content: flex-start;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     row-gap: 15px;
     padding: 15px 0 20px;
@@ -60,7 +60,7 @@ button{
 
 
 
-#toDoArea article {
+#ToDo article {
     width: 90%;
     min-height: 150px;
     background-color: rgba(17, 139, 245, 0.6);
@@ -70,7 +70,7 @@ button{
     padding-left: 30px;
     
 }
-#progressArea article {
+#progress article {
     width: 90%;
     min-height: 150px;
     background-color: rgba(164, 197, 226, 0.6);
@@ -80,7 +80,7 @@ button{
     padding-left: 30px;
     
 }
-#testingArea article {
+#testing article {
     width: 90%;
     min-height: 150px;
     background-color: rgba(85, 102, 117, 0.6);
@@ -90,7 +90,7 @@ button{
     padding-left: 30px;
     
 }
-#doneArea article {
+#done article {
     width: 90%;
     min-height: 150px;
     background-color: rgba(8, 59, 104, 0.6);
